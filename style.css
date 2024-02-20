@@ -33,6 +33,10 @@
     margin-left: 40px;
 }
 
+.navbar a:hover {
+    color: black;
+}
+
 .container {
     position: relative;
     display: inline-block;
@@ -65,4 +69,61 @@
     padding: 20px 20px;
     font-size: 20px;
     text-align: right;
+}
+
+.section {
+    width: 80%;
+    min-height: 100vh;
+    padding-left: 20%;
+    background-color: white;
+}
+
+.about-container {
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.content-section {
+    float: left;
+    width: 60%;
+}
+
+.image-section {
+    float: right;
+    width: 30%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+
+.content-section .title {
+    color: rgb(18, 18, 182);
+    font-size: 16px;
+}
+
+.content-section .content p {
+    margin-top: 50px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.content-section .content .button {
+    margin-top: 120px;
+}
+
+.content-section .content .button a {
+    background-color: rgb(18, 18, 182);
+    padding: 15px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.content-section .content .button a:hover {
+    background-color: black;
+    color: white;
 }
