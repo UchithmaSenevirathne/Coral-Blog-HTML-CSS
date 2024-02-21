@@ -5,6 +5,8 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*Intro*/
+
 .header {
     position: fixed;
     top: 0;
@@ -81,6 +83,8 @@
     text-align: right;
 }
 
+/*About*/
+
 .section-about {
     width: 70%;
     min-height: 70vh;
@@ -144,6 +148,8 @@
     color: white;
 }
 
+/*Blue Line*/
+
 .section-blue-img {
     width: 100%;
     min-height: 15vh;
@@ -162,6 +168,8 @@
     flex: 33.33%;
     padding: 5px;
 }
+
+/*Blog*/
 
 .blog {
     padding: 3.0rem 0;
@@ -198,7 +206,7 @@
     overflow: hidden;
 }
 
- .blog-img::after {
+.blog-img::after {
     position: absolute;
     content: "";
     top: 0;
@@ -240,6 +248,8 @@
 .item-title a:hover{
     color: rgb(18, 18, 182);
 }
+
+/*Gallery*/
 
 .gallery {
     background-color: whitesmoke;
