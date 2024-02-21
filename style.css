@@ -233,7 +233,7 @@
 }
 
 .blog-img img {
-    transition: all 0.5s ease;
+    transition: all 1s ease;
 }
 
 .blog-item:hover img {
@@ -315,7 +315,7 @@
 
 
 .gallery-img img {
-    transition: all 0s ease;
+    transition: all 0.1s ease;
 }
 
 .gallery-item:hover img {
