@@ -84,68 +84,76 @@
 }
 
 /*About*/
+.about {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-.section-about {
-    width: 70%;
-    min-height: 70vh;
-    padding-left: 10%;
-    background-color: white;
+.heading {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-left: 100px;
+    margin: 50px;
+    padding-bottom: 30px;
+}
+
+.heading h1 {
+    font-size: 2.1rem;
+    color: rgb(18, 18, 182);
+    /* margin-bottom: 25px;
+    position: relative; */
+}
+
+.heading p {
+    text-transform: uppercase;
+    padding: 1rem 0;
 }
 
 .about-container {
-    width: 150%;
-    display: block;
-    margin: auto;
-    padding-top: 100px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 30px;
 }
 
-.content-section-about {
-    float: left;
-    width: 60%;
+.section-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
 }
 
-.image-section-about {
-    float: right;
-    width: 30%;
+.about-img {
+    flex: 1;
+    margin-right: 40px;
+    overflow: hidden;
 }
 
-.image-section-about img {
-    width: 60%;
+.about-img img {
+    max-width: 90%;
     height: auto;
+    display: block;
+    padding-left: 15%;
 }
 
-.content-section-about .title-about {
-    color: rgb(18, 18, 182);
+.about-content {
+    padding-right: 10%;
+    flex: 1;
+}
+
+.about-content h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.about-content p {
     font-size: 16px;
-}
-
-.content-section-about .content-about h3 {
-    margin-top: 50px;
-    font-weight: 500;
-}
-
-.content-section-about .content-about p {
-    margin-top: 40px;
-    font-size: 15px;
-    line-height: 2.0;
-}
-
-.content-section-about .content-about .button-about {
-    margin-top: 95px;
-}
-
-.content-section-about .content-about .button-about a {
-    background-color: rgb(18, 18, 182);
-    border-radius: 5px;
-    padding: 15px 20px;
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-}
-
-.content-section-about .content-about .button-about a:hover {
-    background-color: black;
-    color: white;
+    line-height: 1.5;
+    color: rgb(66, 66, 66);
 }
 
 /*Blue Line*/
@@ -158,7 +166,7 @@
 }
 
 .container-blue-img {
-    width: 90%;
+    width: 80%;
     display: flex;
     margin: auto;
     padding-top: 20px;
@@ -298,13 +306,13 @@
 }
 
 
-/* .gallery-img img {
+.gallery-img img {
     transition: all 0.5s ease;
 }
 
 .gallery-item:hover img {
     transform: scale(1.2);
-} */
+}
 
 .gallery-content {
     display: grid;
