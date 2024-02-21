@@ -324,3 +324,30 @@
     grid-template-columns: repeat(4, 1fr);
     justify-content: center;
 }
+
+/*new page*/
+
+.Breathtaking-header {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Breathtaking-heading h1 {
+    font-size: 2.1rem;
+    background-color: white;
+    color: rgb(18, 18, 182);
+    width: 100%;
+    min-height: 10vh;
+    padding-top: 25px;
+}
+
+.Breathtaking-heading img {
+    padding-bottom: 10px;
+}
+
+.Breathtaking-content {
+    padding-left: 20%;
+    padding-right: 20%;
+    line-height: 1.5;
+}
