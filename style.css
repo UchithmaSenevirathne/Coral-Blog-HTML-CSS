@@ -177,6 +177,14 @@
     padding: 5px;
 }
 
+.column-img img {
+    transition: all 0.5s ease;
+}
+
+.column-img img:hover {
+    transform: scale(1.5);
+}
+
 /*Blog*/
 
 .blog {
@@ -307,7 +315,7 @@
 
 
 .gallery-img img {
-    transition: all 0.5s ease;
+    transition: all 0s ease;
 }
 
 .gallery-item:hover img {
