@@ -207,6 +207,10 @@
     padding-left: 10%;
     padding-right: 10%;
     margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 1.0rem;
 }
 
 .blog-item {
@@ -252,10 +256,7 @@
 }
 
 .blog-content {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    gap: 1.0rem;
+   
 }
 
 .item-title a:hover{
@@ -347,7 +348,54 @@
 }
 
 .Breathtaking-content {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
     line-height: 1.5;
+    text-transform: capitalize;
+}
+
+.Breathtaking-item {
+    padding-top: 100px;
+}
+
+.Breathtaking-item h3 {
+    font-size: 20px;
+}
+
+.Breathtaking-item-img {
+    padding-top: 50px;
+}
+
+.Breathtaking-item-img img {
+    transition: all 0.5s ease;
+}
+
+.Breathtaking-item-img img:hover {
+    transform: scale(1.2);
+}
+
+.Breathtaking-item p {
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 1.5;
+    font-size: 15px;
+    color: rgb(77, 77, 77);
+}
+
+.Breathtaking-item-content {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 1.0rem;
+}
+
+.Breathtaking-item {
+    margin: 1.5rem 0;
 }
