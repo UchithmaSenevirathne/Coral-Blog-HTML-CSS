@@ -531,3 +531,11 @@
     padding-left: 5px;
     padding-right: 5px;
 }
+
+.book-table img {
+    transition: all 0.5s ease;
+}
+
+.book-table img:hover {
+    transform: scale(1.2);
+}
