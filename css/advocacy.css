@@ -1,0 +1,14 @@
+.list {
+    padding-left: 50px;
+}
+
+.list li {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.protect-img {
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.foot {
+    padding-top: 50px;
+    background-color: rgb(18, 18, 182);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px;
+    font-size: 15px;
+}

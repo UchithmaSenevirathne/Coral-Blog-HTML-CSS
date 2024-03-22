@@ -1,0 +1,81 @@
+.species {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.species-heading h1{
+    text-align: center;
+    font-size: 2.1rem;
+    background-color: white;
+    color: rgb(18, 18, 182);
+    width: 100%;
+    min-height: 10vh;
+    padding-top: 25px;
+}
+
+.species-content {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    line-height: 1.5;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+.species-item-content {
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 33%;
+}
+
+.species-item {
+    padding-top: 100px;
+}
+
+.species-item h3 {
+    font-size: 20px;
+}
+
+.species-item-img {
+    padding-top: 50px;
+}
+
+.species-item-img img {
+    transition: all 0.5s ease;
+}
+
+.species-item-img img:hover {
+    transform: scale(1.2);
+}
+
+.species-item p {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-top: 50px;
+    padding-right: 600px;
+    line-height: 1.5;
+    font-size: 15px;
+    color: rgb(77, 77, 77);
+}
+
+.table {
+    width: 650px;
+    border: 1px solid rgb(90, 90, 90);
+    border-collapse: collapse;
+}
+
+.row {
+    height: 50px;
+    font-size: 12px;
+}
+
+.row td {
+    border: 1px solid rgb(90, 90, 90);
+    border-collapse: collapse;
+    padding-left: 5px;
+}

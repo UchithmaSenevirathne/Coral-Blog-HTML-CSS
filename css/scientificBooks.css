@@ -1,0 +1,41 @@
+.book-item-content {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 300px;
+}
+
+.book-table {
+    width: 80%;
+    border: 1px solid rgb(90, 90, 90);
+    border-collapse: collapse;
+}
+
+.book-table th {
+    font-size: 13px;
+    height: 50px;
+    background-color: rgb(18, 18, 182);
+    color: white;
+}
+
+.book-table td {
+    height: 200px;
+    font-size: 12px;
+}
+
+.book-table th,td {
+    border: 1px solid rgb(90, 90, 90);
+    border-collapse: collapse;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.book-table img {
+    transition: all 0.5s ease;
+}
+
+.book-table img:hover {
+    transform: scale(1.2);
+}

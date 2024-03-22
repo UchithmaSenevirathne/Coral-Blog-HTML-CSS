@@ -1,0 +1,45 @@
+.threats-item-content {
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.threats-item {
+    padding-top: 100px;
+}
+
+.threats-item h3 {
+    font-size: 20px;
+}
+
+.threats-item p {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding-top: 50px;
+    line-height: 1.5;
+    font-size: 15px;
+    color: rgb(77, 77, 77);
+}
+
+.bottom-img {
+    padding-top: 100px;
+}
+
+.img-content {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+}
+
+.img-item {
+    cursor: pointer;
+    margin: 1.5rem 0;
+}
+
+.img-img {
+    position: relative;
+    overflow: hidden;
+}
