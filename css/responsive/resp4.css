@@ -1,0 +1,24 @@
+@media screen and (max-width:926px) and (min-width:805px){
+
+    .header {
+        padding: 20px 65px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .navbar a {
+        font-size: 11px;
+    }
+
+    .label-intro {
+        font-size: 35px;
+        left: 50%;
+    }
+
+    .intro {
+        font-size: 13px;
+        left: 50%;
+    }
+}

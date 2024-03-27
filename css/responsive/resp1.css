@@ -1,0 +1,17 @@
+@media screen and (max-width:1400px) and (min-width:1261px){
+    .logo {
+        font-size: 30px;
+    }
+
+    .navbar a {
+        font-size: 16px;
+    }
+
+    .label-intro {
+        font-size: 48px;
+    }
+
+    .intro {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,32 @@
+@media screen and (max-width:519px) and (min-width: 320px){
+
+    .header {
+        padding: 10px 50px;
+    }
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .navbar a {
+        font-size: 14px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .menu .fa-bars{
+        display: inline-block;
+    }
+
+    .label-intro {
+        font-size: 12px;
+        left: 50%;
+    }
+
+    .intro {
+        font-size: 10px;
+        left: 50%;
+    }
+}

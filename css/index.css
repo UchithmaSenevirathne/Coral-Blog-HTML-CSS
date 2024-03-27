@@ -32,6 +32,10 @@
     color: rgb(18, 18, 182);
 }
 
+.menu .fa-bars{
+    display: none;
+}
+
 .container-intro {
     position: relative;
     display: inline-block;
@@ -49,7 +53,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 98.5%;
+    height: 98%;
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -80,6 +84,8 @@
     text-align: center;
     align-items: center;
 }
+
+
 
 /*About*/
 .about {
