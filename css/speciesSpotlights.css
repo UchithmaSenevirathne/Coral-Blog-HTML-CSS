@@ -2,16 +2,22 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .species-heading h1{
-    text-align: center;
     font-size: 2.1rem;
     background-color: white;
     color: rgb(18, 18, 182);
     width: 100%;
     min-height: 10vh;
     padding-top: 25px;
+}
+
+.species-heading img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 .species-content {
@@ -26,7 +32,7 @@
     font-size: 12px;
 }
 
-.species-item-content {
+/* .species-item-content {
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -61,6 +67,47 @@
     line-height: 1.5;
     font-size: 15px;
     color: rgb(77, 77, 77);
+} */
+
+.species-item-content {
+    padding-left: 20%;
+    padding-right: 20%;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 1.0rem;
+}
+
+.species-item {
+    margin: 1.5rem;
+}
+
+.species-item h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.species-item-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.species-item-img img {
+    transition: all 1s ease;
+}
+
+.species-item-img img:hover {
+    transform: scale(1.2);
+}
+
+.species-item p {
+    padding: 1rem;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.5;
 }
 
 .table {

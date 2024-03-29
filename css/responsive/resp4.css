@@ -169,4 +169,43 @@
     .book-name {
         width: 200px;
     }
+
+    /* species spotlights */
+
+    .species-heading h1{
+        font-size: 1.6rem;
+    }
+
+    .species-item p {
+        font-size: 13px;
+    }
+
+    .species-item-content {
+        padding-left: 10%;
+        padding-right: 10%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .table {
+        width: 650px;
+    }
+
+    /* threats */
+
+    .threats-item p {
+        font-size: 14px;
+    }
+
+    .img-content {
+        margin: 1rem 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    /* advocacy */
+
+    .protect-img {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }

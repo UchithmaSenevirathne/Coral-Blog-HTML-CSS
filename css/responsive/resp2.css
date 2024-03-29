@@ -126,4 +126,23 @@
     .book-table p {
         padding: 10px 0;
     }
+
+    /* species spotlights */
+    .species-heading h1{
+        font-size: 1.9rem;
+    }
+
+    .species-item p {
+        font-size: 14px;
+    }
+
+    .table {
+        width: 530px;
+    }
+
+    /* threats */
+
+    .threats-item p {
+        font-size: 14px;
+    }
 }

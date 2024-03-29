@@ -56,4 +56,20 @@
         padding-bottom: 100px;
         padding-left: 120px;
     }
+
+    /* species spotlights */
+    .species-heading h1{
+        font-size: 2rem;
+    }
+
+    .species-item p {
+        font-size: 14px;
+    }
+
+    .table {
+        width: 590px;
+    }
+
+    /* threats */
+    
 }
