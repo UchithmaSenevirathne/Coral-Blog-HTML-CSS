@@ -21,4 +21,88 @@
         font-size: 13px;
         left: 50%;
     }
+
+    .container-intro::after {
+        height: 97.5%;
+    }
+
+    /* about */
+
+    .heading h1 {
+        font-size: 1.9rem;
+    }
+
+    .heading p {
+       font-size: 1rem;
+    }
+
+    .about-content {
+        padding-right: 6%;
+    }
+
+    /*Blue Line*/
+
+    .section-blue-img {
+        min-height: 11vh;
+        padding-left: 16%;
+    }
+
+    /* blog */
+
+    .blog-title h2 {
+        font-size: 1.9rem;
+    }
+    
+    .blog-title p {
+        font-size: 1rem;
+    }
+
+    .item-title {
+        font-size: 1rem;
+    }
+
+    .blog-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* gallery */
+
+    .gallery-title h2 {
+        font-size: 1.9rem;
+    }
+    
+    .gallery-title p {
+        font-size: 1rem;
+    }
+
+    .gallery-content {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* contact */
+
+    .contact-container h2 {
+        font-size: 1.9rem;
+    }
+
+    .contact-form h3 {
+        font-size: 18px;
+    }
+
+    input, textarea {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .contact-info h3 {
+        font-size: 18px;
+    }
+    
+    .contact-info p {
+        font-size: 16px;
+    }
+
+    button {
+        padding: 10px 24px;
+    }
 }

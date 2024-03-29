@@ -14,4 +14,26 @@
     .intro {
         font-size: 18px;
     }
+
+    .container-intro::after {
+        height: 97.7%;
+    }
+
+    /* about */
+
+    .about-content {
+        padding-right: 6%;
+    }
+
+    /*Blue Line*/
+
+    .section-blue-img {
+        min-height: 13vh;
+        padding-left: 16%;
+    }
+
+    /* blog */
+
+    /* gallery */
+
 }

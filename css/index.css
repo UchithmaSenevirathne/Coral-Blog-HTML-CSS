@@ -93,15 +93,9 @@
 }
 
 .heading {
-    width: 90%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     text-align: center;
-    padding-left: 100px;
-    margin: 50px;
-    padding-bottom: 30px;
+    padding: 2rem 0;
+    margin-bottom: 50px;
 }
 
 .heading h1 {

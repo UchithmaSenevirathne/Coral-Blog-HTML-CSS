@@ -21,4 +21,107 @@
         font-size: 13px;
         left: 50%;
     }
+
+    .container-intro::after {
+        height: 97%;
+    }
+
+     /* about */
+
+    .heading h1 {
+        font-size: 1.7rem;
+    }
+
+    .heading p {
+       font-size: 0.95rem;
+    }
+
+    .about-content {
+        padding-right: 6%;
+    }
+
+    .about-img img {
+        max-width: 95%;
+        height: auto;
+        display: block;
+        padding-left: 15%;
+    }
+
+    .about-content h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+        color: black;
+    }
+    
+    .about-content p {
+        font-size: 15px;
+        line-height: 1.5;
+        color: rgb(66, 66, 66);
+    }
+
+    /*Blue Line*/
+
+    .section-blue-img {
+        min-height: 10vh;
+        padding-left: 16%;
+    }
+
+    /* blog */
+
+    .blog-title h2 {
+        font-size: 1.7rem;
+    }
+    
+    .blog-title p {
+        font-size: 0.95rem;
+    }
+
+    .item-title {
+        font-size: 0.95rem;
+    }
+
+    .blog-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* gallery */
+
+    .gallery-title h2 {
+        font-size: 1.7rem;
+    }
+    
+    .gallery-title p {
+        font-size: 0.95rem;
+    }
+
+    .gallery-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* contact */
+
+    .contact-container h2 {
+        font-size: 1.7rem;
+    }
+
+    .contact-form h3 {
+        font-size: 16px;
+    }
+
+    input, textarea {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .contact-info h3 {
+        font-size: 16px;
+    }
+    
+    .contact-info p {
+        font-size: 13px;
+    }
+
+    button {
+        padding: 10px 18px;
+    }
 }

@@ -1,4 +1,4 @@
-@media screen and (max-width:1260px) and (min-width:1135px){
+@media screen and (max-width:1262px) and (min-width:1135px){
 
     .header {
         padding: 20px 85px;
@@ -20,5 +20,80 @@
     .intro {
         font-size: 16px;
         left: 50%;
+    }
+
+    .container-intro::after {
+        height: 97.6%;
+    }
+    
+    /* about */
+
+    .heading h1 {
+        font-size: 2rem;
+    }
+
+    .heading p {
+       font-size: 1rem;
+    }
+
+    .about-content {
+        padding-right: 6%;
+    }
+
+    /*Blue Line*/
+
+    .section-blue-img {
+        min-height: 12vh;
+        padding-left: 16%;
+    }
+
+    /* blog */
+
+    .blog-title h2 {
+        font-size: 2rem;
+    }
+    
+    .blog-title p {
+        font-size: 1rem;
+    }
+
+    .item-title {
+        font-size: 1rem;
+    }
+
+    /* gallery */
+
+    .gallery-title h2 {
+        font-size: 2rem;
+    }
+    
+    .gallery-title p {
+        font-size: 1rem;
+    }
+
+    .gallery-content {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    /* contact */
+
+    .contact-container h2 {
+        font-size: 2rem;
+    }
+
+    .contact-form h3 {
+        font-size: 18px;
+    }
+
+    input, textarea {
+        width: 90%;
+    }
+
+    .contact-info h3 {
+        font-size: 18px;
+    }
+    
+    .contact-info p {
+        font-size: 16px;
     }
 }
