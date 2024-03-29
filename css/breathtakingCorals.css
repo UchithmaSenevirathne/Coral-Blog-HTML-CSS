@@ -14,6 +14,12 @@
     padding-top: 25px;
 }
 
+.Breathtaking-heading img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .Breathtaking-content {
     padding-left: 10%;
     padding-right: 10%;
@@ -25,7 +31,7 @@
     font-size: 12px;
 }
 
-.Breathtaking-item {
+/*.Breathtaking-item {
     padding-top: 100px;
 }
 
@@ -69,4 +75,44 @@
 
 .Breathtaking-item {
     margin: 1.5rem 0;
+} */
+
+.Breathtaking-item-content {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    gap: 1.0rem;
+}
+
+.Breathtaking-item {
+    margin: 1.5rem;
+}
+
+.Breathtaking-item h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.Breathtaking-item-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.Breathtaking-item-img img {
+    transition: all 1s ease;
+}
+
+.Breathtaking-item:hover img {
+    transform: scale(1.2);
+}
+
+.Breathtaking-item p {
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
 }
