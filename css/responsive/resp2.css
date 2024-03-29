@@ -99,4 +99,31 @@
 
     /* breathtaking page */
 
+    .Breathtaking-item h3 {
+        font-size: 15px;
+    }
+
+    .Breathtaking-item p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    /* scientific books */
+
+    .book-table {
+        width: 90%;
+    }
+
+    .book-item-content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 110px;
+    }
+
+    .book-table p {
+        padding: 10px 0;
+    }
 }

@@ -25,6 +25,10 @@
     font-size: 12px;
 }
 
+.book-table p {
+    padding: 10px 0;
+}
+
 .book-table th,td {
     border: 1px solid rgb(90, 90, 90);
     border-collapse: collapse;
@@ -34,8 +38,17 @@
 
 .book-table img {
     transition: all 0.5s ease;
+    width: 50%;
 }
 
 .book-table img:hover {
     transform: scale(1.2);
+}
+
+.book-name {
+    width: 200px;
+}
+
+.author {
+    width: 100px;
 }

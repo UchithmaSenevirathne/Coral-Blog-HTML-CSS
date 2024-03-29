@@ -111,8 +111,9 @@
 
 .Breathtaking-item p {
     padding: 1rem;
-    font-size: 1rem;
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.5;
 }

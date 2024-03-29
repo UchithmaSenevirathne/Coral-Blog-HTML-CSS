@@ -150,4 +150,83 @@
     .contact-wrapper {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    /* breathtaking page */
+
+    .Breathtaking-item-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Breathtaking-heading h1 {
+        font-size: 0.7rem;
+        min-height: 6vh;
+        padding-top: 20px;
+    }
+
+    .Breathtaking-content {
+        padding-left: 5%;
+        padding-right: 5%;
+        font-size: 9px;
+    }
+    
+    .Breathtaking-item h3 {
+        font-size: 12px;
+    }
+
+    .Breathtaking-item p {
+        font-size: 12px;
+        line-height: 1.5;
+        padding: 0.8rem;
+    }
+
+    /* scientific books */
+
+    .book-table {
+        width: 100%;
+    }
+
+    .book-item-content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 0px;
+    }
+
+    .book-table p {
+        padding: 10px 0;
+        font-size: 10px;
+        max-height: 150px;
+        overflow-y: auto;
+    }
+
+    .book-table img {
+        width: 70%;
+        padding: 10px 0;
+    }
+
+    .book-table th,td {
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+
+    .book-table td {
+        font-size: 10px;
+    }
+
+    .book-name {
+        width: 50px;
+    }
+
+    .author {
+        width: 50px;
+    }
+
+    /* foot */
+
+    .foot {
+        padding-top: 25px;
+        font-size: 11px;
+    }
 }

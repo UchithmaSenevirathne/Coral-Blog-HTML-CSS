@@ -127,4 +127,46 @@
 
     /* breathtaking page */
 
+    .Breathtaking-item-content {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .Breathtaking-heading h1 {
+        font-size: 1.8rem;
+    }
+    
+    /* .Breathtaking-item h3 {
+        font-size: 17px;
+    } */
+
+    /* scientific books */
+
+    .book-table {
+        width: 90%;
+    }
+
+    .book-item-content {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        padding-left: 90px;
+    }
+
+    .book-table p {
+        padding: 10px 0;
+        font-size: 11px;
+        max-height: 150px;
+        overflow-y: auto;
+    }
+
+    .book-table img {
+        width: 70%;
+        padding: 10px 0;
+    }
+
+    .book-name {
+        width: 200px;
+    }
 }
